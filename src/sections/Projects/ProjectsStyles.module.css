@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-width: 100px
+}
+
+
+.container img {
+    max-width: 250px;
+    background-color: var(--project-card-bg);
+    border-radius: 20px;
+    
+}
+
+
+.container a {
+    /* width: 500px;  */
+    /* Fixed width for consistency */
+    text-decoration: none;
+    color: #222;
+    transition: transform 200ms ease-in-out;
+    max-width: 200ch;
+    
+}
+
+
+.container a:hover {
+    transform: scale(1.05);
+}
+
+
+.container p {
+    font-size: 20px;
+    /* align-items: center; */
+    max-width: 30ch;
+}
+
+
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+
+@media (min-width: 800px) {
+    .projectsContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0 30px;
+        
+    }
+
+
+    .projectCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start; /* Ensure all cards start at the top */
+        width: 300px; /* Fix the width for consistency */
+        height: 450px; /* Fix the height for consistency */
+        margin: 10px; /* Add some margin for spacing */
+        box-sizing: border-box;
+        background-color: var(--project-card-bg);
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+
+    .projectCard img {
+        margin-bottom: 10px; /* Space between image and description */
+    }
+
+
+    .projectCard p {
+        
+        flex-grow: 1; /* Allow paragraph to take remaining space */
+        margin: 0;
+        overflow: hidden;
+    }
+}
+
+
+
+
+
