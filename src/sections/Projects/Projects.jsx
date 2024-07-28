@@ -30,7 +30,7 @@ function Projects() {
 
             <ProjectCard 
                 src={portfolio} 
-                link="https://google.com"
+                link="https://github.com/SonjiaD/Personal-Portfolio"
                 h3 = 'Personal Portfolio'
                 p = 'My personal website, which is the one you are on right now! This was created to feature my software and design projects.'
             />
