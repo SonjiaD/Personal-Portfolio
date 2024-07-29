@@ -9,7 +9,7 @@ function Projects() {
   return (
     <section id="projects" className={styles.container}> 
         <h1 className='sectionTitle'> 
-            Projects
+            Software Projects
         </h1>
 
         <div className={styles.projectsContainer}>
@@ -25,7 +25,36 @@ function Projects() {
                 src={heartdisease} 
                 link="https://github.com/SonjiaD/DSCI-100-Project-Final-Submission-"
                 h3 = 'Heart Disease Analysis'
-                p = 'Analyzing heart disease causes'
+                p = 'Analyzing heart disease causes in Cleveland, USA'
+            />
+
+            <ProjectCard 
+                src={portfolio} 
+                link="https://github.com/SonjiaD/Personal-Portfolio"
+                h3 = 'Personal Portfolio'
+                p = 'Features my software and design projects.'
+            />
+
+        </div>
+
+        <h1 className='sectionTitle'> 
+            Design Projects
+        </h1>
+
+        <div className={styles.projectsContainer}>
+            
+            <ProjectCard 
+                src={theory} 
+                link="https://github.com/SonjiaD/CPSC-210-Project"
+                h3 = 'The Muse'
+                p = 'Music theory learning application'
+            />
+
+            <ProjectCard 
+                src={heartdisease} 
+                link="https://github.com/SonjiaD/DSCI-100-Project-Final-Submission-"
+                h3 = 'Heart Disease Analysis'
+                p = 'Analyzing heart disease causes in Cleveland, USA'
             />
 
             <ProjectCard 
@@ -37,6 +66,10 @@ function Projects() {
 
         </div>
     </section>
+    
+
+
+    
   )
 }
 
