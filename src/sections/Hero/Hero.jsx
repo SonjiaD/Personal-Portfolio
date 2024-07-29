@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css'
-import heroImg from '../../assets/sonja.png'
+import sonja from '../../assets/sonja.png'
 import sun from '../../assets/sun.svg'
 import moon from '../../assets/moon.svg'
 
@@ -33,7 +33,7 @@ function Hero() {
         <div className={styles.colorModeContainer}>
             <img 
             className={styles.hero}
-            src={heroImg} 
+            src={sonja} 
             alt="Profile picture of Sonja"
             style={{ width: '400px', height: 'auto' }}
             />
