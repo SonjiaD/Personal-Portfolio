@@ -6,6 +6,7 @@ import portfolio from '../../assets/portfolio.png'
 import ikea from '../../assets/ikea.png'
 import riot from '../../assets/riot.png'
 import amies from '../../assets/amies.png'
+import kfc from '../../assets/kfc.png'
 import ProjectCard from '../../common/ProjectCard'
 
 function Projects() {
@@ -81,6 +82,14 @@ function Projects() {
                 link="https://www.canva.com/design/DAGMSFlHnDI/AK3VzruXqU8AnqmeGQX9dw/edit?utm_content=DAGMSFlHnDI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                 h3 = 'Riot Games Stylescape'
                 p = 'Resdesign of Riot Games'
+            />
+
+            <ProjectCard 
+                src={kfc} 
+                link="https://www.canva.com/design/DAFEqzwi9Jg/UtZRAEmwtF4iaU80eg2Aww/edit?utm_content=DAFEqzwi9Jg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                h3 = 'KFC Stylescape'
+                p = 'Resdesign of KFC'
+                style={{ borderRadius: '20px' }}
             />
 
         </div>

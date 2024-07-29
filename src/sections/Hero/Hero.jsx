@@ -53,7 +53,7 @@ function Hero() {
                 </h1>
 
                 <h2>
-                    Frontend Developer/Designer
+                    Frontend Developer & Web Designer
                 </h2>
                 <span>
                     {/* <a href='https://twitter.com/' target="_blank">

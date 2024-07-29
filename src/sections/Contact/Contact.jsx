@@ -6,7 +6,7 @@ function Contact() {
         <h1 className='sectionTitle'>
            Contact Form
         </h1>
-        <form action="add link to form to create the service 1:35:35">
+        <form action="https://formspree.io/f/meojadwo" method='post'>
 
             {/* input for the name in contact box */}
             

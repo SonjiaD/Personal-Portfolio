@@ -26,9 +26,13 @@ function Skills() {
             </div>
         <hr />
             <div className={styles.skillList}>
-                <SkillList src={checkMarkIcon} skill="Redux" />
+                <SkillList src={checkMarkIcon} skill="Java" />
+                <SkillList src={checkMarkIcon} skill="R" />
                 <SkillList src={checkMarkIcon} skill="Git" />
                 <SkillList src={checkMarkIcon} skill="Bootstrap" />
+            </div>
+        <hr />
+            <div className={styles.skillList}>
                 <SkillList src={checkMarkIcon} skill="Figma" />
                 <SkillList src={checkMarkIcon} skill="UX/UI Design" />
             </div>
