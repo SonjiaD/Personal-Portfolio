@@ -4,7 +4,7 @@ function Contact() {
   return (
     <section id='contact' className={styles.container}> 
         <h1 className='sectionTitle'>
-           Contact
+           Contact Form
         </h1>
         <form action="add link to form to create the service 1:35:35">
 

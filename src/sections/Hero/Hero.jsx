@@ -53,7 +53,7 @@ function Hero() {
                 </h1>
 
                 <h2>
-                    Frontend Developer
+                    Frontend Developer/Designer
                 </h2>
                 <span>
                     {/* <a href='https://twitter.com/' target="_blank">
@@ -68,7 +68,7 @@ function Hero() {
                 </span>
 
                 <p className={styles.description}>
-                    Hi I'm Sonja! I am a second year undergraduate Computer Science and Music (concentration in piano) student at the University of British Columbia (UBC). I have a passion for UX/UI design, software development, and music. I enjoy developing modern React web applications for commerical businesses.
+                    Hi I'm Sonja! I am a second year undergraduate Computer Science and Music (concentration in piano) student at the University of British Columbia (UBC). I have a passion for UX/UI design, software development, and music. I enjoy working on projects that could have a positive social impact on the world.
                 </p>
 
                 
