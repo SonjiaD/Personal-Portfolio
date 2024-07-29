@@ -18,21 +18,21 @@ function Projects() {
                 src={theory} 
                 link="https://github.com/SonjiaD/CPSC-210-Project"
                 h3 = 'The Muse'
-                p = 'Music theory learning application for music students or those who are interested in music who would like to learn more about music and improve their basic theory skills.'
+                p = 'Music theory learning application'
             />
 
             <ProjectCard 
                 src={heartdisease} 
                 link="https://github.com/SonjiaD/DSCI-100-Project-Final-Submission-"
                 h3 = 'Heart Disease Analysis'
-                p = 'Analyzing heart disease causes and predicting its likelihood in Cleveland based on factors like age, blood pressure, cholesterol levels, maximum heart rate, and ST depression from exercise.'
+                p = 'Analyzing heart disease causes'
             />
 
             <ProjectCard 
                 src={portfolio} 
                 link="https://github.com/SonjiaD/Personal-Portfolio"
                 h3 = 'Personal Portfolio'
-                p = 'My personal website, which is the one you are on right now! This was created to feature my software and design projects.'
+                p = 'Features my software and design projects.'
             />
 
         </div>
