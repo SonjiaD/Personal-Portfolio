@@ -7,7 +7,7 @@ import ikea from '../../assets/ikea.png'
 import riot from '../../assets/riot.png'
 import amies from '../../assets/amies.png'
 import kfc from '../../assets/kfc.png'
-import fpc from '../../assets/fpc.png'
+import fpc from '../../assets/FPC-gray.png'
 import ProjectCard from '../../common/ProjectCard'
 
 function Projects() {
