@@ -7,6 +7,7 @@ import ikea from '../../assets/ikea.png'
 import riot from '../../assets/riot.png'
 import amies from '../../assets/amies.png'
 import kfc from '../../assets/kfc.png'
+import fpc from '../../assets/fpc.png'
 import ProjectCard from '../../common/ProjectCard'
 
 function Projects() {
@@ -26,18 +27,29 @@ function Projects() {
             />
 
             <ProjectCard 
+                src={portfolio} 
+                link="https://github.com/SonjiaD/Personal-Portfolio"
+                h3 = 'Personal E-Portfolio'
+                p = 'Features my software and design projects.'
+            />
+
+            <ProjectCard 
+                src={fpc} 
+                link="https://github.com/StephanieQuon/ResourcesforFamilyCaregivers"
+                h3 = 'Families as Partners in Care'
+                p = 'Medical resource website for caregivers'
+            />
+
+            <ProjectCard 
                 src={heartdisease} 
                 link="https://github.com/SonjiaD/DSCI-100-Project-Final-Submission-"
                 h3 = 'Heart Disease Analysis'
                 p = 'Analyzing heart disease causes in Cleveland, USA'
             />
 
-            <ProjectCard 
-                src={portfolio} 
-                link="https://github.com/SonjiaD/Personal-Portfolio"
-                h3 = 'Personal Portfolio'
-                p = 'Features my software and design projects.'
-            />
+           
+
+            
 
         </div>
 
@@ -89,7 +101,6 @@ function Projects() {
                 link="https://www.canva.com/design/DAFEqzwi9Jg/UtZRAEmwtF4iaU80eg2Aww/edit?utm_content=DAFEqzwi9Jg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                 h3 = 'KFC Stylescape'
                 p = 'Resdesign of KFC'
-                style={{ borderRadius: '20px' }}
             />
 
         </div>
