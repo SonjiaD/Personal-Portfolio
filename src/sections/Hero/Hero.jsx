@@ -10,6 +10,9 @@ import githubLight from '../../assets/github-light.svg'
 import githubDark from '../../assets/github-dark.svg'
 import linkedinLight from '../../assets/linkedin-light.svg'
 import linkedinDark from '../../assets/linkedin-dark.svg'
+import mkLight from '../../assets/mk-light-nobkg.png'
+import mkDark from '../../assets/mk-dark.png'
+
 import CV from "../../assets/cv.pdf"
 import { useTheme } from '../../common/ThemeContext'
 
@@ -20,9 +23,10 @@ function Hero() {
 
     const themeIcon = theme ==='light' ? sun : moon;
 
-    const twitterIcon = theme ==='light' ? twitterLight : twitterDark
+    // const twitterIcon = theme ==='light' ? twitterLight : twitterDark
     const githubIcon = theme ==='light' ? githubLight : githubDark;
     const linkedinIcon = theme ==='light' ? linkedinLight : linkedinDark;
+    const mkIcon = theme ==='light' ? mkDark : mkLight;
 
 
 
@@ -62,9 +66,15 @@ function Hero() {
                     <a href='https://github.com/SonjiaD' target="_blank">
                         <img src={githubIcon} alt="github icon" />
                     </a>
-                        <a href='https://www.linkedin.com/in/sonja-d-0a5a79289/' target="_blank">
+                    
+                    <a href='https://www.linkedin.com/in/sonja-d-0a5a79289/' target="_blank">
                     <img src={linkedinIcon} alt="Linkedin icon" />
                     </a>
+
+                    <a href='https://monkeytype.com/profile/sonjiad' target="_blank">
+                    <img src={mkIcon} alt="Monkeytype icon" />
+                    </a>
+
                 </span>
 
                 <p className={styles.description}>
