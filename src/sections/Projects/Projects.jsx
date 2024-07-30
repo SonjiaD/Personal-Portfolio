@@ -8,6 +8,7 @@ import riot from '../../assets/riot.png'
 import amies from '../../assets/amies.png'
 import kfc from '../../assets/kfc.png'
 import fpc from '../../assets/FPC-gray.png'
+
 import ProjectCard from '../../common/ProjectCard'
 
 function Projects() {
@@ -80,6 +81,13 @@ function Projects() {
                 link="https://www.canva.com/design/DAGMSC4mg44/Sor3WpgGTQXmff6D1evHDQ/edit?utm_content=DAGMSC4mg44&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                 h3 = 'Amies'
                 p = 'Immigration app'
+            />
+
+            <ProjectCard 
+                src={fpc} 
+                link="https://www.figma.com/proto/h5CZYdqQOWploz87lqjGMh/FPC---Web-Design-Drafts?node-id=75-319&t=6AYOTXJNpd0EW43v-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=75%3A319&show-proto-sidebar=1"
+                h3 = 'Families as Partners in Care'
+                p = 'Resource website'
             />
 
             <ProjectCard 
