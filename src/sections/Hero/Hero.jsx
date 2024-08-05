@@ -13,7 +13,8 @@ import linkedinDark from '../../assets/linkedin-dark.svg'
 import mkLight from '../../assets/mk-light-nobkg.png'
 import mkDark from '../../assets/mk-dark.png'
 
-import CV from "../../assets/cv.pdf"
+import CV from "../../assets/Designcv.pdf"
+
 import { useTheme } from '../../common/ThemeContext'
 
 
@@ -78,7 +79,7 @@ function Hero() {
                 </span>
 
                 <p className={styles.description}>
-                    Hi I'm Sonja! I am a second year undergraduate Computer Science and Music (concentration in piano) student at the University of British Columbia (UBC). I have a passion for UX/UI design, software development, and music. I enjoy working on projects that could have a positive social impact on the world.
+                    Hi I'm Sonja! I am an undergraduate Computer Science and Music (concentration in piano) student at the University of British Columbia (UBC). I have a passion for UX/UI design, software development, and music. I enjoy working on projects that could have a positive social impact on the world.
                 </p>
 
                 
