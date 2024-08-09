@@ -10,7 +10,7 @@ import linkedinDark from '../../assets/linkedin-dark.svg'
 import mkLight from '../../assets/mk-light-nobkg.png'
 import mkDark from '../../assets/mk-dark.png'
 
-import CV from "../../assets/cv.pdf"
+import CV from "../../assets/sonjadengcv.pdf"
 
 import { useTheme } from '../../common/ThemeContext'
 
