@@ -80,11 +80,11 @@ function Hero() {
                 </p>
 
                 
-                <a href={CV} download> 
+{/*                 <a href={CV} download> 
                     <button className="hover" >
                         Resume
                     </button>
-                </a>
+                </a> */}
 
             </div>
         </section>
