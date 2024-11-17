@@ -10,7 +10,7 @@ import Navbar from './sections/Navbar/Navbar';
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
         <Hero />
         <Projects />
         {/* <div style={{ paddingTop: '10px' }}></div> */}

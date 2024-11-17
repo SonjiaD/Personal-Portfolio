@@ -1,49 +1,85 @@
-/* Navbar.module.css */
+:root {
+    --background-color: #fff;
+    --btn-color: #1d1fb9;
+    --btn-hover-color: #0b145a; /* Dark blue for hover */
+    --btn-text-color: #ffffff;
+    --project-card-bg: #ffffff00; 
+    --text-color: #222;
+    --form-text-color: #555;
+    --footer-text-color: #888;
+    --navbar-bg-color: #222; /* Opposite of light theme background */
+}
+
+[data-theme='dark'] {
+    --background-color: #0c0d4b;
+    --btn-color: #fff;
+    --btn-hover-color: #0b145a; /* Dark blue for hover */
+    --btn-text-color: #0c0d4b;
+    --project-card-bg: #fff; 
+    --text-color: #fff;
+    --form-text-color: #fff;
+    --footer-text-color: #bbb;
+    --navbar-bg-color: #fff; /* Opposite of dark theme background */
+}
 .nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #000;  /* Dark background */
-    color: white;  /* White text */
-    padding: 10px 0;
-    z-index: 1000; /* Keep navbar on top */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add subtle shadow for depth */
+    background-color: var(--navbar-bg-color); /* Opposite background color */
+    color: var(--btn-text-color); /* White text */
+    padding: 15px 0; /* Uniform padding */
+    z-index: 1000; /* Keep the navbar above other content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); /* Subtle shadow for depth */
 }
 
 .ul {
     display: flex;
-    justify-content: center; /* Centers the items horizontally */
+    justify-content: center; /* Align items centrally */
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style: none; /* Remove default bullets */
+    gap: 30px; /* Consistent spacing with the main file */
 }
 
 .li {
-    margin: 0 20px; /* Adds space between the menu items */
+    margin: 0; /* Controlled by gap in .ul */
 }
 
 .link {
-    color: white;
+    color: var(--btn-text-color); /* White text for links */
     text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    transition: color 0.3s ease, transform 0.2s ease; /* Smooth transition for hover effects */
+    font-family: 'Robot Mono', monospace; 
+    /* Match font family */
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px; /* Match font size in `p` */
+    font-weight: 300; /* Consistent text weight */
+    text-transform: uppercase;
+
+    transition: transform 200ms ease-in-out, color 200ms ease-in-out; /* Smooth hover effects */
 }
 
 .link:hover {
-    color: #f39c12; /* Change color to yellow on hover */
-    transform: scale(1.1); /* Slightly enlarge the text on hover */
+    color: #1d1fb9; /* Change to button color on hover */
+    transform: scale(1.05); /* Subtle scaling */
 }
 
-/* Add responsiveness for mobile view */
+/* Mobile View Adjustments */
 @media (max-width: 768px) {
     .ul {
-        flex-direction: column; /* Stack the items vertically on smaller screens */
+        flex-direction: column; /* Stack links vertically */
         align-items: center;
+        gap: 20px; /* Adjust gap for smaller screens */
     }
 
-    .li {
-        margin: 10px 0; /* Adjust space between items when stacked */
+    .link {
+        font-size: 20px; /* Slightly smaller font for mobile */
+    }
+}
+
+/* Larger Screens */
+@media (min-width: 1400px) {
+    .link {
+        font-size: 30px; /* Larger font for wide screens */
     }
 }

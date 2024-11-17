@@ -78,7 +78,7 @@ function Hero() {
                 <p className={styles.description}>
                     Hi I'm Sonja! 
                     <br></br>
-                    I am an undergraduate Computer Science and Music (concentration in piano) student at the University of British Columbia (UBC). I have a passion for UX/UI design, software development, and music. I enjoy working on projects that could have a positive social impact on the world.
+                    I am an undergraduate Computer Science and Piano student at the University of British Columbia. I have a passion for UX/UI design, software development, and music. I enjoy working on projects that could have a positive social impact on the world.
                 </p>
 
                 
