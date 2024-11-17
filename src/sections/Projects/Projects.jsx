@@ -33,6 +33,13 @@ function Projects() {
           h3="The Muse" 
           p="Music theory learning application (Java)" 
         />
+
+        <ProjectCard 
+          src={amies} 
+          link="https://github.com/SonjiaD/ImmigrationApp" 
+          h3="Amies" 
+          p="Vancouver Immigration app (Java)" 
+        />
         
       </div>
 
@@ -43,19 +50,19 @@ function Projects() {
           src={portfolio} 
           link="https://github.com/SonjiaD/Personal-Portfolio" 
           h3="Personal E-Portfolio" 
-          p="Features my software and design projects. (Vite)" 
+          p="My software/design projects. (Vite)" 
         />
         <ProjectCard 
           src={fpc} 
           link="https://github.com/SonjiaD/FPC-Res" 
-          h3="Families as Partners in Care" 
-          p="Medical resource website for caregivers (Node.js)" 
+          h3="UBC Medicine" 
+          p="Medical caregiver website (Node.js)" 
         />
         <ProjectCard 
           src={heartdisease} 
           link="https://github.com/SonjiaD/DSCI-100-Project-Final-Submission-" 
           h3="Heart Disease Analysis" 
-          p="Analyzing heart disease causes in Cleveland, USA (R)" 
+          p="Analyzing heart disease causes (R)" 
         />
       </div>
 
