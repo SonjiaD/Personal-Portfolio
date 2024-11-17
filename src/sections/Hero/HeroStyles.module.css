@@ -31,29 +31,6 @@
         transition: transform 0.2s ease-in-out;
     }
 
-    button {
-        background-color: var(--btn-color);
-        color: var(--btn-text-color);
-        border: none;
-        border-radius: 20px;
-        width: 126px;
-        height: 50px;
-        font-size: 20px;
-        font-weight: bold;
-        box-shadow: 0 4px 4px rgba(0, 0,0 ,0.25);
-
-        /* making the button change size when it is pressed */
-        transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
-    }
-
-    button:hover {
-        transform: scale(1.05);
-    }
-    button:active {
-        transform: translateY(2px);
-        box-shadow: 0 2px 2px rgba(0, 0,0 ,0.25);
-    }
-
     a {
         transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
     }
@@ -102,8 +79,30 @@
         gap: 20px;
     }
 
-
-
+    button {
+        background-color: var(--btn-color); /* Button background color */
+        color: var(--btn-text-color); /* Button text color */
+        border: none; /* Remove default border */
+        border-radius: 20px; /* Rounded corners */
+        width: 126px; /* Fixed width */
+        height: 50px; /* Fixed height */
+        font-size: 20px; /* Text size */
+        font-weight: bold; /* Bold text */
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); /* Shadow for 3D effect */
+        cursor: pointer; /* Pointer cursor for buttons */
+        transition: 
+            box-shadow 200ms ease-in-out,
+            transform 200ms ease-in-out; /* Smooth hover and active transitions */
+    }
+    
+    button:hover {
+        transform: scale(1.05); /* Slight zoom effect on hover */
+    }
+    
+    button:active {
+        transform: translateY(2px); /* "Pressed" effect */
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25); /* Adjust shadow */
+    }
 
 }
 
@@ -127,4 +126,11 @@
             width: 400px;
         }
     }
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    border: none; /* Already in your code */
+    box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
 }

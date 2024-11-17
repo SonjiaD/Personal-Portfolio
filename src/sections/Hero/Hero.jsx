@@ -80,6 +80,12 @@ function Hero() {
                     <br></br>
                     I am an undergraduate Computer Science and Piano student at the University of British Columbia. I have a passion for UX/UI design, software development, and music. I enjoy working on projects that could have a positive social impact on the world.
                 </p>
+                <a href="mailto:sonjadeng@yahoo.com">
+                    <button className="hover">
+                        Email Me
+                    </button>
+                </a>
+
 
                 
 {/*                 <a href={CV} download> 
@@ -88,12 +94,7 @@ function Hero() {
                     </button>
                 </a> */}
 
-                <a href="mailto:sonjadeng@yahoo.com">
-                    <button className="hover">
-                        Email Me
-                    </button>
-                </a>
-
+                
 
             </div>
         </section>
