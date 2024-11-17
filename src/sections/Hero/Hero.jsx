@@ -10,7 +10,7 @@ import linkedinDark from '../../assets/linkedin-dark.svg'
 import mkLight from '../../assets/mk-light-nobkg.png'
 import mkDark from '../../assets/mk-dark.png'
 
-import CV from "../../assets/sonjadengcv.pdf"
+// import CV from "../../assets/sonjadengcv.pdf"
 
 import { useTheme } from '../../common/ThemeContext'
 
@@ -55,7 +55,7 @@ function Hero() {
                 </h1>
 
                 <h2>
-                    Frontend Developer & Web Designer
+                    Developer & Designer
                 </h2>
                 <span>
                     {/* <a href='https://twitter.com/' target="_blank">
@@ -76,7 +76,9 @@ function Hero() {
                 </span>
 
                 <p className={styles.description}>
-                    Hi I'm Sonja! I am an undergraduate Computer Science and Music (concentration in piano) student at the University of British Columbia (UBC). I have a passion for UX/UI design, software development, and music. I enjoy working on projects that could have a positive social impact on the world.
+                    Hi I'm Sonja! 
+                    <br></br>
+                    I am an undergraduate Computer Science and Music (concentration in piano) student at the University of British Columbia (UBC). I have a passion for UX/UI design, software development, and music. I enjoy working on projects that could have a positive social impact on the world.
                 </p>
 
                 
@@ -85,6 +87,13 @@ function Hero() {
                         Resume
                     </button>
                 </a> */}
+
+                <a href="mailto:sonjadeng@yahoo.com">
+                    <button className="hover">
+                        Email Me
+                    </button>
+                </a>
+
 
             </div>
         </section>

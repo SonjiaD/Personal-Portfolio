@@ -1,0 +1,49 @@
+/* Navbar.module.css */
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;  /* Dark background */
+    color: white;  /* White text */
+    padding: 10px 0;
+    z-index: 1000; /* Keep navbar on top */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add subtle shadow for depth */
+}
+
+.ul {
+    display: flex;
+    justify-content: center; /* Centers the items horizontally */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.li {
+    margin: 0 20px; /* Adds space between the menu items */
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease; /* Smooth transition for hover effects */
+}
+
+.link:hover {
+    color: #f39c12; /* Change color to yellow on hover */
+    transform: scale(1.1); /* Slightly enlarge the text on hover */
+}
+
+/* Add responsiveness for mobile view */
+@media (max-width: 768px) {
+    .ul {
+        flex-direction: column; /* Stack the items vertically on smaller screens */
+        align-items: center;
+    }
+
+    .li {
+        margin: 10px 0; /* Adjust space between items when stacked */
+    }
+}
