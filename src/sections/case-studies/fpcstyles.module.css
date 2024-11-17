@@ -6,6 +6,8 @@
 }
 
 .title {
+  margin-top: 100px; /* Adjust the value as needed */
+
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
@@ -35,3 +37,64 @@
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }
+
+/* General Section Styling */
+.section {
+  margin-bottom: 40px; /* Add spacing between sections */
+}
+
+h1, h2 {
+  font-weight: 800; /* Make headings heavier */
+  letter-spacing: 1px; /* Add slight spacing for clarity */
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+p {
+  font-weight: 300; /* Make regular text lighter */
+  line-height: 1.8; /* Increase line spacing for readability */
+}
+
+.bulletPoints p {
+  position: relative;
+  padding-left: 20px; /* Indent bullet points */
+  margin-bottom: 10px; /* Add spacing between bullet points */
+}
+
+.bulletPoints p::before {
+  /* content: '•'; */
+  position: absolute;
+  left: 0;
+  color: var(--text-color); /* Use text color for bullets */
+  font-size: 1.2em; /* Slightly larger bullet for visibility */
+  font-weight: 600; /* Bold bullet for emphasis */
+}
+
+/* Section separation for better readability */
+.section:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Subtle separator */
+  padding-bottom: 20px; /* Space within sections */
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.galleryImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.galleryImage:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
